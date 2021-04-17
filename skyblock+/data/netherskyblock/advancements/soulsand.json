@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Soul Sand Valley"
+        },
+        "description": {
+            "text": "Dostań się na biom Soul Sand Valley"
+        },
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "soul_sand_valley"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:root"
+}

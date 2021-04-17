@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Tu się wszystko kończy... Ale czy na pewno"
+        },
+        "description": {
+            "text": "Stwórz 12 end portal frame (musisz mieć w eq)"
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "brodawki": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_portal_frame",
+                        "count": {
+                            "min": 12,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "recipes": [
+            "craftingi:endportal"
+        ]
+    },
+    "parent": "skyblock:okoend"
+}

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Oko żuć albo i nie"
+        },
+        "description": {
+            "text": "Stwórz oko endu"
+        },
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "brodawki": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ender_eye",
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20,
+        "recipes": [
+            "craftingi:endportal"
+        ]
+    },
+    "parent": "skyblock:root"
+}

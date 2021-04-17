@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SWS",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:sugar_cane"
+        },
+        "S": {
+            "item": "minecraft:bone_meal"
+        },
+        "W": {
+            "item": "minecraft:wheat_seeds"
+        }
+    },
+    "result": {
+        "item": "minecraft:cactus",
+        "count": 1
+    },
+    "group": "kaktus"
+}

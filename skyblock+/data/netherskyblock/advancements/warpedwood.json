@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Warped Wood"
+        },
+        "description": {
+            "text": "Zdobądź 64 Warped Stem"
+        },
+        "icon": {
+            "item": "minecraft:warped_stem"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:warped_stem",
+                        "count": {
+                            "min": 64,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:warped"
+}

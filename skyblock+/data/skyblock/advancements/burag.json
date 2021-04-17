@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Buraki !"
+        },
+        "description": {
+            "text": "Zdobądź 64 trzciny cukrowe"
+        },
+        "icon": {
+            "item": "minecraft:beetroot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "trzcinka": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:sugar_cane",
+                        "count": {
+                            "min": 64,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:marchewga"
+        ],
+        "experience": 10
+    },
+    "parent": "skyblock:trzcina"
+}

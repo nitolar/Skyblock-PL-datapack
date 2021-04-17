@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "text": "It's free real estate"
+        },
+        "description": {
+            "text": "Dostań się na wyspe z generatorami"
+        },
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                   "dimension": "minecraft:the_nether"
+                }
+            }
+        },
+        "x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 177,
+                            "max": 196
+                        }
+                    }
+                }
+            }
+        },
+        "y": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 93,
+                            "max": 118
+                        }
+                    }
+                }
+            }
+        },
+        "z": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "z": {
+                            "min": 495,
+                            "max": 513
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:root"
+}

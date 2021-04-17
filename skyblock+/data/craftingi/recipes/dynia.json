@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DWD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:orange_dye"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "W": {
+            "item": "minecraft:wheat_seeds"
+        }
+    },
+    "result": {
+        "item": "minecraft:pumpkin_seeds",
+        "count": 2
+    }
+}

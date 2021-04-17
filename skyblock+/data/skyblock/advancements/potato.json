@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Ziemniory"
+        },
+        "description": {
+            "text": "Zdobądź 32 marchewki "
+        },
+        "icon": {
+            "item": "minecraft:potato"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "marchwga": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "skyblock:marchw"
+}

@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Basalt Deltas"
+        },
+        "description": {
+            "text": "Dostań się na biom Basalt Deltas"
+        },
+        "icon": {
+            "item": "minecraft:basalt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "basalt_deltas"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:root"
+}

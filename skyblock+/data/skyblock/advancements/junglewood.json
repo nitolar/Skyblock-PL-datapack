@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "Jungle Wood"
+        },
+        "description": {
+            "text": "Zdobadz 64 Jungle Logi"
+        },
+        "icon": {
+            "item": "minecraft:jungle_log"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:jungle_log",
+                        "count": {
+                            "min": 64,
+                            "max": 10000
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "fungdzje:drewno",
+        "experience": 100
+    },
+    "parent": "skyblock:akacjawood"
+}

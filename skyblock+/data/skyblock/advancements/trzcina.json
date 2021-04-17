@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "Trzcina !!!"
+        },
+        "description": {
+            "text": "Zdobądź 64 mączki kostnej"
+        },
+        "icon": {
+            "item": "minecraft:sugar_cane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Maczka": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bone_meal",
+                        "count": {
+                            "min": 64,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:burak",
+            "craftingi:kaktsu",
+            "craftingi:kaktus1"
+        ],
+        "experience": 15
+    },
+    "parent": "skyblock:nasiona"
+}

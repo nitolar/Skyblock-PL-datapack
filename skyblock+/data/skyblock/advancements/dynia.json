@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Pora na ciasto dyniowe"
+        },
+        "description": {
+            "text": "Zdobądź nasiona dyni"
+        },
+        "icon": {
+            "item": "minecraft:pumpkin_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Nasionko": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:pumpkin_seeds",
+                        "count": {
+                            "min": 1,
+                            "max": 32
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:melon"
+        ],
+        "experience": 10
+    },
+    "parent": "skyblock:nasiona"
+}

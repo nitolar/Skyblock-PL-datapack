@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Warped Forest"
+        },
+        "description": {
+            "text": "Dostań się na biom Warped Forest"
+        },
+        "icon": {
+            "item": "minecraft:warped_wart_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:warped_forest"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:root"
+}

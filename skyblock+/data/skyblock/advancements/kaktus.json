@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Kaktus"
+        },
+        "description": {
+            "text": "Zdobądz 10 kaktusa"
+        },
+        "icon": {
+            "item": "minecraft:cactus"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "buragi": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cactus",
+                        "count": {
+                            "min": 10,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:bamboo"
+        ],
+        "experience": 15
+    },
+    "parent": "skyblock:trzcina"
+}

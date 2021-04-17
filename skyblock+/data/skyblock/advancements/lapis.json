@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Lapis"
+        },
+        "description": {
+            "text": "Zdobadz 12 sztuk lapisu"
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lapis_lazuli",
+                        "count": {
+                            "min": 12,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 45,
+        "recipes": [
+            "craftingi:redstone"
+        ]
+    },
+    "parent": "skyblock:obsydian"
+}

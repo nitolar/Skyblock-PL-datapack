@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "igi",
+        "gDg",
+        "igi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:gold_block"
+        },
+        "g": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "D": {
+            "item": "minecraft:gold_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone",
+        "count": 6
+    }
+}
