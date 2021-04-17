@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Iron !!!"
+        },
+        "description": {
+            "text": "Get 32 iron ingot"
+        },
+        "icon": {
+            "item": "minecraft:iron_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:iron_ingot",
+                        "count": {
+                            "min": 32,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:zloto"
+        ],
+        "experience": 30
+    },
+    "parent": "skyblock:wingiel"
+}

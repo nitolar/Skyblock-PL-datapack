@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Birch Wood"
+        },
+        "description": {
+            "text": "Get 64 Birch Log"
+        },
+        "icon": {
+            "item": "minecraft:birch_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:birch_log",
+                        "count": {
+                            "min": 64,
+                            "max": 10000
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:akacjasapling"
+        ],
+        "experience": 10
+    },
+    "parent": "skyblock:sprucewood"
+}

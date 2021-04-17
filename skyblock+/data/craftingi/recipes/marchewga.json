@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#B#",
+        "BWB",
+        "#B#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:beetroot_seeds"
+        },
+        "B": {
+            "item": "minecraft:beetroot"
+        },
+        "W": {
+            "item": "minecraft:wheat_seeds"
+        }
+    },
+    "result": {
+        "item": "minecraft:carrot",
+        "count": 2
+    }
+}

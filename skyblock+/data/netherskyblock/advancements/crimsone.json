@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Crimson Forest"
+        },
+        "description": {
+            "text": "Get on the biome Crimson Forest"
+        },
+        "icon": {
+            "item": "minecraft:nether_wart_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:crimson_forest"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:root"
+}

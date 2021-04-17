@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Obsidian"
+        },
+        "description": {
+            "text": "Get 4 obsidian"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:obsidian",
+                        "count": {
+                            "min": 4,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:lapis"
+        ],
+        "experience": 40
+    },
+    "parent": "skyblock:diament"
+}

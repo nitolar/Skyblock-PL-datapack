@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Melon"
+        },
+        "description": {
+            "text": "Get melon seeds"
+        },
+        "icon": {
+            "item": "minecraft:melon_seeds"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Nasionko": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:melon_seeds",
+                        "count": {
+                            "min": 1,
+                            "max": 32
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "skyblock:dynia"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "Wellcome",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "You dawnload datapack :D",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/cobblestone.png"
+    },
+    "criteria": {
+        "Join": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

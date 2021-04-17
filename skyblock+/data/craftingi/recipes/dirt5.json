@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "dert",
+    "pattern": [
+        "#D#",
+        "D#D",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:cobblestone"
+        },
+        "D": {
+            "item": "minecraft:dark_oak_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:dirt",
+        "count": 2
+    }
+}

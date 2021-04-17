@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "DPD",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pumpkin_seeds"
+        },
+        "D": {
+            "item": "minecraft:dirt"
+        },
+        "P": {
+            "item": "minecraft:pumpkin"
+        }
+    },
+    "result": {
+        "item": "minecraft:melon_seeds",
+        "count": 2
+    }
+}

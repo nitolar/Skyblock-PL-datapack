@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Gold !!!"
+        },
+        "description": {
+            "text": "Get 32 gold"
+        },
+        "icon": {
+            "item": "minecraft:gold_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_ingot",
+                        "count": {
+                            "min": 32,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:diament"
+        ],
+        "experience": 40
+    },
+    "parent": "skyblock:zelazo"
+}

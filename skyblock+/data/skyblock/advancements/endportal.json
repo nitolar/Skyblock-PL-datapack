@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Here is where it all ends... But are you sure"
+        },
+        "description": {
+            "text": "Craft 12 End Portal Frame (You must have it in yours eq)"
+        },
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "brodawki": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:end_portal_frame",
+                        "count": {
+                            "min": 12,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "skyblock:okoend"
+}

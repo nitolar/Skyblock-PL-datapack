@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Coal !!!"
+        },
+        "description": {
+            "text": "Get 32 coal"
+        },
+        "icon": {
+            "item": "minecraft:coal"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Dird": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:coal",
+                        "count": {
+                            "min": 32,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:iron"
+        ],
+        "experience": 15
+    },
+    "parent": "skyblock:dirt"
+}

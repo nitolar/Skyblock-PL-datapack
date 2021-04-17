@@ -1,0 +1,41 @@
+{
+    "display": {
+        "title": {
+            "text": "Diiamond POG!!!"
+        },
+        "description": {
+            "text": "Get 32 diamonds"
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond",
+                        "count": {
+                            "min": 32,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:emerald",
+            "craftingi:obsydian"
+        ],
+        "experience": 45
+    },
+    "parent": "skyblock:zloto"
+}

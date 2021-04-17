@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether Fortress"
+        },
+        "description": {
+            "text": "Go to the island with Nether Fortress"
+        },
+        "icon": {
+            "item": "minecraft:nether_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                   "dimension": "minecraft:the_nether"
+                }
+            }
+        },
+        "x": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 294,
+                            "max": 320
+                        }
+                    }
+                }
+            }
+        },
+        "y": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 139,
+                            "max": 170
+                        }
+                    }
+                }
+            }
+        },
+        "z": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "z": {
+                            "min": 407,
+                            "max": 432
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:root"
+}

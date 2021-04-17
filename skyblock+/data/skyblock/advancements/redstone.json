@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Redstone"
+        },
+        "description": {
+            "text": "Get 32 redstone"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:redstone",
+                        "count": {
+                            "min": 32,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "skyblock:lapis"
+}

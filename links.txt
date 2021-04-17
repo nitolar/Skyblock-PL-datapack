@@ -1,0 +1,11 @@
+CREATOR OF DATAPACKA: nitolar play
+Version: beta 1.0.5
+TXT: https://www.dropbox.com/s/6l807smncmyr4oc/skyblock%2B%20txt%20v.0.3.1%20eng.zip?dl=1
+Plugins and cfg: https://www.dropbox.com/s/9qbmywgeaitk98k/plugins.zip?dl=1
+Map: https://www.dropbox.com/s/y67jcum2k0p0bo0/islands.zip?dl=1
+For updates, keep an eye on: https://www.curseforge.com/minecraft/customization/skyblock-datapack/files
+
+
+Special thanks:
+MrQuariti (TXT, Generators)
+Pawejak (Map)

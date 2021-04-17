@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "text": "NETHERITE POG!!!",
+            "bold": true
+        },
+        "description": {
+            "text": "Get 5 netherite_ingot"
+        },
+        "icon": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:netherite_ingot",
+                        "count": {
+                            "min": 5,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 60
+    },
+    "parent": "skyblock:emerald"
+}

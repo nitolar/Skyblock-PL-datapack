@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#D#",
+        "D#D",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:birch_sapling"
+        },
+        "D": {
+            "item": "minecraft:birch_log"
+        }
+    },
+    "result": {
+        "item": "minecraft:acacia_sapling",
+        "count": 1
+    }
+}

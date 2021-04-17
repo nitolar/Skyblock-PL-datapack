@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Crimson Wood"
+        },
+        "description": {
+            "text": "Get 64 Crimson Stem"
+        },
+        "icon": {
+            "item": "minecraft:crimson_stem"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:crimson_stem",
+                        "count": {
+                            "min": 64,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:crimsone"
+}

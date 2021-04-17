@@ -1,0 +1,57 @@
+{
+    "display": {
+        "title": {
+            "text": "Dirt !!!"
+        },
+        "description": {
+            "text": "Mine 64 cobblestone "
+        },
+        "icon": {
+            "item": "minecraft:dirt"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "64 cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:cobblestone",
+                        "count": {
+                            "min": 64,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:dirt",
+            "craftingi:dirt1",
+            "craftingi:dirt2",
+            "craftingi:dirt3",
+            "craftingi:dirt4",
+            "craftingi:dirt5",
+            "craftingi:dirt6",
+            "craftingi:dirt7",
+            "craftingi:dirt8",
+            "craftingi:dirt9",
+            "craftingi:dirt10",
+            "craftingi:dirt11",
+			"craftingi:saplingoak",
+            "craftingi:saplingoak2",
+            "craftingi:sand",
+            "craftingi:wengiel",
+            "craftingi:gravel"
+        ],
+        "experience": 10,
+        "function": "fungdzje:dert"
+    },
+    "parent": "skyblock:root"
+}

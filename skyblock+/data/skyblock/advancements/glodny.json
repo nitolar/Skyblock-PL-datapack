@@ -1,0 +1,144 @@
+{
+    "display": {
+        "title": {
+            "text": "Hungry ?"
+        },
+        "description": {
+            "text": "Eat everything edible and its varieties from this path"
+        },
+        "icon": {
+            "item": "minecraft:cake"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "chleb": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:bread",
+                    "count": {
+                        "min": 1,
+                        "max": 100000000000000000
+                    }
+                }
+            }
+        },
+        "burak": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:beetroot",
+                    "count": {
+                        "min": 1,
+                        "max": 1000000000000000000
+                    }
+                }
+            }
+        },
+        "zubapurak": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:beetroot_soup",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "marchewka": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:carrot",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "zlotamarchewka": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:golden_carrot",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "ziemniak": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:potato",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "zgnileziemniak": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:poisonous_potato",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "pieczonyziemniak": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:baked_potato",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "ciastodynia": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:pumpkin_pie",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        },
+        "melon": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:melon",
+                    "count": {
+                        "min": 1,
+                        "max": 10000000000000000000
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 50,
+        "function": "fungdzje:glodny"
+    },
+    "parent": "skyblock:potato"
+}

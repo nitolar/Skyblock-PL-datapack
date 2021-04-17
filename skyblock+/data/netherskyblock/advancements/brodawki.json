@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether wart"
+        },
+        "description": {
+            "text": "Get 10 nether wart from Nether Fortress"
+        },
+        "icon": {
+            "item": "minecraft:nether_wart"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "brodawki": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_wart",
+                        "count": {
+                            "min": 10,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "netherskyblock:forteca"
+}

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "title": {
+            "text": "Spruce Wood"
+        },
+        "description": {
+            "text": "Get 64 Spruce Log"
+        },
+        "icon": {
+            "item": "minecraft:spruce_log"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "oak": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:spruce_log",
+                        "count": {
+                            "min": 64,
+                            "max": 10000
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "craftingi:birchsapling"
+        ],
+        "experience": 10
+    },
+    "parent": "skyblock:darkoak"
+}

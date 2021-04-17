@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Bamboo"
+        },
+        "description": {
+            "text": "Get 64 bamboo"
+        },
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "buragi": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:bamboo",
+                        "count": {
+                            "min": 64,
+                            "max": 128
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "skyblock:kaktus"
+}

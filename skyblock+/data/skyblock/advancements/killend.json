@@ -1,0 +1,58 @@
+{
+    "display": {
+        "title": {
+            "text": "End Defeated !",
+            "bold": true,
+            "italic": true
+        },
+        "description": {
+            "text": "Kill all the mobs that enter the end!"
+        },
+        "icon": {
+            "item": "minecraft:end_stone"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "edek": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        },
+        "endermite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:endermite"
+                }
+            }
+        },
+        "shulkr": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:shulker"
+                }
+            }
+        },
+        "ender dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 250,
+        "function": "fungdzje:endkill"
+    },
+    "parent": "skyblock:powuerzchnia"
+}

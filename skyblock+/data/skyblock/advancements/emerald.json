@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "Emeralds !!!"
+        },
+        "description": {
+            "text": "Get 32 emeralds"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "wrungiel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:emerald",
+                        "count": {
+                            "min": 32,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 80
+    },
+    "parent": "skyblock:diament"
+}
