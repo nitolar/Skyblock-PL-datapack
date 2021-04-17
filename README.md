@@ -1,26 +1,27 @@
-# Skyblock-PL-datapack
-Co daje datapack:
+# Skyblock+ ENG (datapack)
 
-- Posiada dodatkowe advancmenty na skyblocka
+ENG:
 
-- Posiada dodatkowe specjalne craftingi
+What does datapack give:
 
-- Posiada nagrody za wykonywanie advancmentów
+- Has additional advancments on skyblock
 
-Najlepiej grać z/na:
+- Has additional special crafting
 
-- Pluginy i ich cfg: https://www.dropbox.com/s/2pz5t8zlov1pnws/pluginy.zip?dl=1
+- Has rewards for doing advancements
 
-- TXT: https://www.dropbox.com/s/aj9l6k7jr6rixu9/Serwer TXT v.0.3.1.zip?dl=1 (optifine)
+For the best experience:
 
-- Mapa (nie ma zainstalowanego datapacka musisz sam zainstalować): https://www.dropbox.com/s/m571z73w3hmhzan/wyspy.zip?dl=1
+- Plugins and their cfg: https://www.dropbox.com/s/9qbmywgeaitk98k/plugins.zip?dl=1
 
-W razie znalezienia jakiegoś błędu proszę o poinformowanie mnie w komentarzach projektu tutaj jak i pod poradnikiem: https://youtu.be/T3d5hUYyelc
+- TXT (optifine): https://www.dropbox.com/s/6l807smncmyr4oc/skyblock+ txt v.0.3.1 eng.zip?dl=1
 
-Miłej gry :D
+- Map (no datapack installed, you need to install it yourself): https://www.dropbox.com/s/y67jcum2k0p0bo0/islands.zip?dl=1
 
-Podziękowania za pomoc dla:
+Have a nice game :D
 
-- MrQuariti (TXT, Generatory)
+Special thanks to:
 
-- Pawejak (Mapa)
+- MrQuariti (TXT, Generators)
+
+- Pawejak (Map)
