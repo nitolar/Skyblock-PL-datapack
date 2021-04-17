@@ -1,4 +1,4 @@
-# Skyblock-PL-datapack
+# Skyblock+ PL (datapack)
 Co daje datapack:
 
 - Posiada dodatkowe advancmenty na skyblocka
