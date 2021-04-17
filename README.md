@@ -1,7 +1,5 @@
 # Skyblock+ ENG (datapack)
 
-ENG:
-
 What does datapack give:
 
 - Has additional advancments on skyblock
